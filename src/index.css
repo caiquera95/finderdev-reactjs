@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&family=Space+Mono:wght@400;700&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+#root {
+  margin: 0 auto;
+  height: 100%;
+}
+
+ul, li {
+  list-style: none;
+}
+
+*:focus {
+  outline: none;
+}
+
+body, input, button{
+  box-sizing: border-box;
+  margin: 0 ;
+  font-family: 'Space Mono', 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
